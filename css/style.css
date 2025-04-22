@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: darkolivegreen;
+    background-color: #ffffff;
 }
 
 /* CV */
@@ -31,7 +31,7 @@ body {
     margin-left: auto;
     padding: 20px 20px;
     text-align: justify;
-    background-color: #fbf4e4;
+    background-color: #ffe6ab;
     border-radius: 2em;
     padding-bottom: 100%;
 }
@@ -39,7 +39,7 @@ body {
 .cv {
     flex-basis: 70%;
     min-height: 100px;
-    background-color: white;
+    background-color: #c2b699;
     margin-left: auto;
     margin-right: auto;
     margin-top: 20px;
@@ -171,4 +171,100 @@ li a:hover {
     background: transparent;
     color: white;
     background-color: blue;
+}
+
+
+/* Pricing-Table */
+.pt-body-all {
+    padding: 2em 2em;
+    font-family: sans-serif;
+    background-color: #ffe3c9;
+    line-height: 1.5;
+}
+
+.pt-h1 {
+    text-align: center;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 1em;
+}
+
+.pt-container {
+    display: flex;
+    flex-direction: row;
+    gap: 2em;
+    flex-grow: 1;
+}
+
+.pt-combo {
+    background-color: white;
+    border-radius: 1em;
+}
+
+.pt-body {
+    background-color: #f59032;
+    padding: 1em;
+    border-top-right-radius: 1em;
+    border-top-left-radius: 1em;
+    text-align: center;
+    color: white;
+}
+
+.pt-h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.pt-price {
+    font-size: 32px;
+}
+
+.pt-features {
+    padding: 1em 2em;
+    list-style-type: none;
+}
+
+.pt-features li {
+    position: relative;
+    padding-left: 25px;
+}
+
+.pt-features li::before {
+    content: "✓";
+    position: absolute;
+    left: 0;
+    color: #f8b84e;
+}
+
+.pt-buy {
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+    background-color: white;
+    color: #f8b84e;
+    border: 1px solid #f8b84e;
+    cursor: pointer;
+    font-size: 20px;
+    margin: 1em 2em;
+    text-decoration: none;
+}
+.pt-buy:hover {
+    background-color: #f8b84e;
+    color: white;
+}
+
+.pricing-button:hover {
+    background-color: #f8b84e;
+    color: white;
+}
+
+.pt-combo:nth-child(n) .pt-buy:hover {
+    background-color: #f8b84e;
+    color: white;
+    border-color: white;
+}
+
+.pt-combo:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
 }
