@@ -281,3 +281,153 @@ li a:hover {
 .pt-combo .pt-buy .pt-buy-button {
     text-decoration: none;
 }
+
+
+/* Product List */
+.pl-page {
+    padding-top: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    font-family: sans-serif;
+}
+
+.pl-header {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.pl-menu-list {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f59032;
+    border-radius: 10px;
+}
+
+.pl-menu-item {
+    padding: 20px;
+    background-color: #f59032;
+}
+
+.pl-header .pl-menu-item a {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.pl-menu-item:hover {
+    background-color: white;
+    color: black;
+}
+
+.pl-body {
+    margin-top: 10px;
+    flex-grow: 1;
+    display: flex;
+}
+
+.pl-category {
+    background-color: #ffd8b4;
+    flex-basis: 20%;
+    border-top-left-radius: 10px;
+    padding-top: 10px;
+    padding-left: 10px;
+}
+
+.pl-product {
+    background-color: #eed5bd;
+    flex-basis: 80%;
+    border-top-right-radius: 10px;
+    line-height: 2;
+    display: flex;
+    gap: 40px;
+    padding: 50px 20px;
+    min-height: 100px;
+    flex-wrap: wrap;
+}
+
+.pt-category-list {
+    
+}
+
+.pl-category-item {
+}
+
+.pl-category-item a{
+    text-decoration: none;
+    line-height: 1.5;
+    font-size: 12px;
+    font-weight: bold;
+    color: black;
+}
+
+.pl-category-item:hover {
+    background-color: #f59032;
+    border-color:#f59032;
+    cursor: pointer;
+}
+
+.pl-category-item a:hover {
+    background-color: #f59032;
+    color: black;
+}
+
+.pl-product-item {
+    text-align: center;
+    background: white;
+    padding: 10px;
+    border-radius: 10px;
+    width: 30%;
+}
+
+.pl-product-item:hover {
+    transform: translateY(-20px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.pl-product a {
+    text-decoration: none;
+}
+
+.pl-img-item {
+    width: 300px;
+    height: 300px;
+}
+
+.pl-product-img {
+}
+
+.pl-product-name {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.pl-product-data {
+    font-size: 12px;
+    padding: 1px 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 5px;
+}
+
+.pl-product-price {
+    font-size: 20px;
+    font-weight: bold;
+    color: red;
+}
+
+.pl-product-buy {
+    padding: 5px 20px;
+    border-style: solid;
+    border-width: 1px;
+    border-radius: 10px;
+    background: #f59032;
+    font-weight: bold;
+    color: white;
+}
+
+.pl-product-buy:hover {
+    cursor: pointer;
+    background: white;
+    color: black;
+}
