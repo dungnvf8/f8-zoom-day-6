@@ -194,6 +194,7 @@ li a:hover {
     flex-direction: row;
     gap: 2em;
     flex-grow: 1;
+    justify-content: center;
 }
 
 .pt-combo {
