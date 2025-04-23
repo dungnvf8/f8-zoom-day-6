@@ -6,6 +6,15 @@ body {
     background-color: #ffffff;
 }
 
+/* Menu */
+.id-menu {
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+    line-height: 1.5;
+}
+
+
 /* CV */
 .cv-flex-box {
     padding: 20px 100px;
@@ -247,7 +256,6 @@ li a:hover {
     cursor: pointer;
     font-size: 20px;
     margin: 1em 2em;
-    text-decoration: none;
 }
 .pt-buy:hover {
     background-color: #f8b84e;
@@ -268,4 +276,8 @@ li a:hover {
 .pt-combo:hover {
     transform: translateY(-20px);
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.pt-combo .pt-buy .pt-buy-button {
+    text-decoration: none;
 }
